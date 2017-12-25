@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a{text-decoration: none;}
+li{list-style: none;}
+/*banner*/
+.banner{
+	width:100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+.banner-img li{
+	position:absolute;
+	top:0;left:0;
+	width:100%;
+	height: 600px;
+	opacity: 0;
+	transition:opacity .3s;
+}
+.banner-img li.dex{
+	opacity: 1;
+}
+.banner-img li a{
+	display: block;
+	width: 100%;
+	height: 600px;
+}
+.bna1{background: url(../img/banner01.png)no-repeat center center;}
+.bna2{background: url(../img/banner02.png)no-repeat center center;}
+.bna3{background: url(../img/banner03.png)no-repeat center center;}
+/*dug*/
+.dug{
+	position: absolute;
+	bottom:40px;left: 50%;
+}
+.dug li{
+	width: 54px;
+	height: 4px;
+	margin-left: 22px;
+	background: #436918;
+	float: left;
+	cursor: pointer;
+	transition: all .3s;
+}
+.dug li.active{
+	background: #fff;
+}
+/*content*/
+.content{
+	width: 1200px;
+	margin:0 auto;
+	margin-top:80px;
+}
+.news-img{
+	width: 590px;
+	height: 451px;
+	float: left;
+}
+.newsIfo{
+	width: 100%;
+	height: 451px;
+	margin-top: 80px;
+}
+.news-intro{
+	width: 530px;
+	height: 451px;
+	float: right;
+}
+.elves{
+	width: 37px;
+	height: 451px;
+	float: left;
+}
+.elves img{
+	width: 100%;
+	height: 100%;
+}
+.duct{
+	width: 493px;
+	height: 451px;
+	float: left;
+}
+.dslog{
+	width: 493px;
+	height: 67px;
+	text-align: center;
+}
+.dsp{
+	width: 493px;
+	height: 484px;
+	overflow: hidden;
+}
+.dsp p.fir{
+	margin-top:28px;
+}
+.dsp p{
+	margin-top:56px;
+	width: 368px;
+	margin-left: 30px;
+	font-size: 14px;
+	color: #333;
+}
+.dsp p.las{
+	margin-top:0;
+	text-align: right;
+	width: 311px;
+}

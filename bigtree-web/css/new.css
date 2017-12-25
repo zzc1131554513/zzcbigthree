@@ -1,0 +1,493 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a{text-decoration: none;}
+li{list-style: none;}
+/*中间区域*/
+.pro-center{
+	width: 100%;
+	margin-bottom: 230px;
+}
+#nws{
+	margin-bottom: 40px;
+}
+#ff{
+	margin-top:40px;
+}
+/*banner*/
+.banner{
+	width:100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+.banner-img li{
+	position:absolute;
+	top:0;left:0;
+	width:100%;
+	height: 600px;
+	opacity: 0;
+	transition:opacity .3s;
+}
+.banner-img li.dex{
+	opacity: 1;
+}
+.banner-img li a{
+	display: block;
+	width: 100%;
+	height: 600px;
+}
+.bna1{background: url(../img/banner01.png)no-repeat center center;}
+.bna2{background: url(../img/banner02.png)no-repeat center center;}
+.bna3{background: url(../img/banner03.png)no-repeat center center;}
+/*dug*/
+.dug{
+	position: absolute;
+	bottom:40px;left: 50%;
+}
+.dug li{
+	width:54px;
+	height:4px;
+	margin-left: 22px;
+	background: #436918;
+	float: left;
+	cursor: pointer;
+	transition: all .3s;
+}
+.dug li.active{
+	background: #fff;
+}
+.fc-nav{
+	width: 100%;
+	background: #fff;
+	font-size: 20px;
+	margin: 0 auto;
+	text-align: center;
+}
+.nav-list{
+	padding-top: 70px;
+}
+.nav-list .pro-active{
+	color: #436918;
+}
+.nav-list ul li a:hover{
+	font-weight: 500;
+	color: #436918;
+}
+.nav-list ul{
+	width: 586px;
+	height: 54px;
+	margin-top: 27px;
+}
+.fc-nav a{
+	color: #333333;
+	text-decoration: none;
+}
+.fc-nav li{
+	margin-top: 16px;
+	list-style: none;
+	float: left;
+	padding: 0 18px;
+	border-right: 1px solid #BBBBBB;
+}
+.fc-nav li a:hover{
+	font-weight: bold;
+	color: #436918;
+}
+.nav-list .pro-no{
+	border-right: none;
+}
+.intro{
+	text-align: center;
+	width: 1200px;
+	overflow: hidden;
+}
+.title .text-one{
+	font-size: 32px;
+	color: #333;
+}
+.title .text-two{
+	font-size: 18px;
+	color: #666;
+}
+.title{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	font-weight: 400;
+}
+.jj-left{
+	float: left;
+	width: 798px;
+}
+.jj-left img{
+	vertical-align: top;
+}
+.jj-left li{
+	list-style: none;
+	float: left;
+}
+.big-view{
+	width: 798px;
+	height: 446px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.small-view li{
+	width: 156px;
+	height: 90px;
+	margin-right: 4px;
+}
+.small-view ul li a{
+	position: relative;
+}
+.small-view ul li p{
+	width: 156px;
+	height: 90px;
+	position: absolute;
+	top:0;left: 0;
+	background: rgba(0,0,0,.3);
+	display: none;
+}
+.small-view li:hover p{
+	background: rgba(0,0,0,0);
+}
+.small-view ul li p.dex{
+	display: block;
+}
+.small-view li:last-child{
+	margin-right: 0;
+	margin-left: 2px;
+}
+.jj-right{
+	float: left;
+}
+.jr-logo{
+	margin: 24px 46px 20px 72px;
+}
+.jr-text{
+	margin-left: 32px;
+	width: 368px;
+	text-align: left;
+	text-indent: 28px;
+	font-size: 14px;
+	color: #333;
+	line-height: 27px;
+}
+.zizhi{
+	text-align: center;
+	width: 1200px;
+	overflow: hidden;
+}
+.zz-view{
+	padding: 0 120px;
+}
+.zz-view img{
+	vertical-align: top;
+}
+.zz-view li{
+	list-style: none;
+	float: left;
+	color: #333;
+	font-size: 14px;
+	margin-right: 100px;
+}
+.zz-view li:last-child{
+	margin-right: 0;
+}
+.zz-view p{
+	margin-top: 22px;
+}
+.pro-scale{
+	width: 1200px;
+	overflow: hidden;
+	text-align: center;
+}
+.pro-dev{
+	color: #fff;
+	font-weight: bold;
+	width: 692px;
+	overflow: hidden;
+	text-align: left;
+}
+.dev-left{
+	float: left;
+	margin-right: 20px;
+}
+.pro-dev p{
+	padding-left: 20px;
+}
+.pro-dev p span{
+	font-size: 22px;
+	line-height: 42px;
+}
+.pro-dev i{
+	display: inline-block;
+    height: 32px;
+    line-height: 24px;
+	font-style: normal;
+	vertical-align: middle;
+	font-size: 16px;
+}
+.pro-dev .dlo-text{
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	line-height: 62px;
+}
+.pro-dev .dt{
+	padding-top: 15px;
+	line-height: 16px;
+	color: #666;
+	font-size: 14px;
+	font-weight: normal;
+}
+.dev-left .dl-two,.dev-left .dl-three{
+	margin-top: 98px;
+}
+.dev-center{
+	float: left;
+}
+.dev-left>div{
+	margin: 0;
+	height: 105px;
+	width: 320px;
+	background: url(../img/pla.png) no-repeat;
+}
+.dev-right{
+	float: left;
+	margin-left: 20px;
+}
+.dev-right .dr-one,.dev-right .dr-two,.dev-right .dr-three{
+	margin-top: 100px;
+}
+.dev-right>div{
+	margin: 0;
+	height: 105px;
+	width: 320px;
+	background: url(../img/pra.png) no-repeat;
+}
+.practice{
+	width: 1200px;
+	overflow: hidden;
+	text-align: center;
+}
+.pra-text{
+	text-indent: 28px;
+	color: #333;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+/*奖项认证*/
+.award{
+	width: 1200px;
+	text-align: center;
+	overflow: hidden;
+}
+.award-view{
+	color: #666;
+	font-size: 16px;
+	text-align: center;
+}
+.award-view img{
+	margin-bottom: 20px;
+}.award{
+	width: 1200px;
+	text-align: center;
+	overflow: hidden;
+}
+.award-view{
+	color: #666;
+	font-size: 16px;
+	text-align: center;
+	overflow: hidden;
+}
+.award-view ul{
+	margin-left: 18px;
+}
+.award-view ul li{
+	margin: 0;
+	float: left;
+	width: 182px;
+	height: 68px;
+	line-height: 68px;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	margin: 0 12px 12px 0;
+	overflow: hidden;
+}
+.award-view li:nth-child(19),.award-view li:nth-child(20),.award-view li:nth-child(21),.award-view li:nth-child(22),.award-view li:nth-child(23),.award-view li:nth-child(24){
+	margin-bottom: 0px;
+}
+.award-view li:nth-child(6),.award-view li:nth-child(12),.award-view li:nth-child(18),.award-view li:nth-child(24){
+	margin-right: 0;
+}
+.award-view li:hover{
+	border-color: #436918;
+	box-shadow: 0px 0px 2px #436918;
+}
+.award-view img{
+	margin-top: 4px;
+}
+#awImg li img{
+	margin:0;
+}
+#pepos{
+	padding:10px 0;
+}
+/*新闻中心*/
+.news-center{
+	width: 1200px;
+	text-align: center;
+	overflow: hidden;
+}
+.news-center img{
+	vertical-align: top;
+}
+.news-left{
+	float: left;
+	width: 590px;
+	margin-right: 24px;
+}
+.news-right{
+	float: left;
+	text-align: left;
+}
+.news-right .news-text{
+	width: 586px;
+	height: 100px;
+	margin-bottom: 15px;
+	background: #eee;
+	font-size: 14px;
+	position: relative;
+	overflow: hidden;
+}
+.news-text a:first-of-type{
+	margin: 0;
+	width: 538px;
+	height: 57px;
+	color: #666;
+	text-decoration: none;
+	margin: 22px 24px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	transition: all .3s ease-in-out;
+}
+.nt-text p{
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+}
+.news-text .news-arrow{
+	display: block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	background: #436918;
+	position: absolute;
+	right: -100px;
+	top: 0;
+	transition: all .3s ease-in-out;
+}
+.news-arrow img{
+	vertical-align: middle;
+}
+.news-text:hover .news-arrow{
+	right: 0;
+}
+.news-text:hover .nt-text{
+	width: 438px;
+}
+.news-top{
+	overflow: hidden;
+	border-bottom: 1px dashed #ccc;
+	padding:10px 0;
+	padding-bottom: 40px;
+}
+.news-text:last-of-type{
+	margin-bottom: 0;
+}
+.news-text:hover{
+	background: #fff;
+	box-shadow: 0 0 10px #666;
+}
+.news-c{
+	overflow: hidden;
+	padding: 40px 0;
+	border-bottom: 1px dashed #ccc;
+}
+.news-c .news-right{
+	float: left;
+	width: 586px;
+	margin-top: 20px;
+}
+.news-right>p{
+	color: #666;
+}
+.news-right .nw1{
+	font-size: 16px;
+}
+.news-right .nw1 a{
+	text-decoration: none;
+	color: #333;
+}
+.news-right .nw2{
+	font-size: 14px;
+	margin-top: 108px;
+}
+.news-right .nw22{
+	margin-top: 36px;
+}
+.last-newsc{
+	padding-bottom: 0;
+	border-bottom: none;
+}
+/*look at more*/
+.look-more{
+	width: 228px;
+	height: 44px;
+	border:1px solid #436918;
+	margin:10px auto;
+}
+.look-more a{
+	display: block;
+	width: 228px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+	color: #436918;
+	transition:all .3s;
+	position: relative;
+	overflow: hidden;
+}
+.look-more:hover a{
+	background: #436918;
+	color: #fff;
+}
+.look-more:hover span.look-wz{
+	margin-left: -12px;
+}
+.look-more:hover span.look-gd{
+	right:60px;
+	background:url(../img/seecase-r.png)no-repeat;
+}
+.look-more span.look-wz{
+	transition: margin .3s;
+}
+.look-more a span.look-gd{
+	position: absolute;
+	top:15px;right:-24px;
+	background:url(../img/r-arrow.png)no-repeat;
+	display: block;
+	width: 24px;
+	height: 14px;
+	transition: all .3s;
+}

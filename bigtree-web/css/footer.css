@@ -1,0 +1,159 @@
+*{font-family: "微软雅黑";}
+/*footer*/
+.footer{
+	width:100%;
+	height: 503px;
+	margin-top:100px;
+	background: url(../img/foot.png);
+	position: relative;
+}
+.f-zz{
+	width: 100%;
+	height:503px;
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	top:0;left:0;
+}
+.f-con{
+	width:1200px;
+	height: 503px;
+	margin:0 auto;
+}
+.f-log{
+	text-align: center;
+	padding:60px 0 48px 0;
+}
+.f-list{
+	width: 1200px;
+	height: 40px;
+	border-bottom:1px solid #fff;
+}
+.f-list ul{
+	margin-left: 56px;
+}
+.f-list ul li{
+	width: 216px;
+	text-align: center;
+	float: left;
+	border-left: 2px solid #fff;
+}
+.f-list ul li:nth-child(1){border:none;}
+.f-list ul li a{
+	font-size: 18px;
+	color: #fff;
+}
+.com-por{
+	width: 1200px;
+	height: 160px;
+	margin-top:42px;
+}
+.qr-code{
+	float: left;
+	margin-right:60px;
+	margin-left: 122px;
+}
+.qr-code img{
+	width: 115px;
+	height: 115px;
+	float: left;
+}
+.cpor-posi{
+	width: 529px;
+	height: 160px;
+	float: left;
+}
+.cpor-posi p{
+	font-size: 16px;
+	color:#fff;
+}
+.cpor-posi p.gs{
+	margin-top:10px;
+}
+.pst{
+	margin:0;
+	margin-top:20px;
+	height: 125px;
+}
+.pst a{
+	display: block;
+	margin:0;
+	width: 150px;
+	height: 40px;
+	background: #fff;
+	text-align: center;
+	font-size: 14px;
+	color: #333;
+	line-height: 40px;
+}
+.pst img{
+	margin-right: 5px;
+	vertical-align:middle;
+}
+.send{
+	width: 210px;
+	height: 40px;
+	margin:0;
+	margin-top:3px;
+	display: none;
+}
+.send-ipt{
+	width: 150px;
+	height: 40px;
+	background:#aaa;
+	text-align: center;
+	float: left;
+}
+.send-ipt input{
+	width:120px;
+	height: 38px;
+	border:none;
+	outline: none;
+	font-size: 14px;
+	color: #000;
+	background:none;
+}
+.send-btn{
+	float:right;
+	width: 56px;
+	height: 40px;
+}
+.pst .send-btn a{
+	width:100%;
+	height: 100%;
+	background:#436918;
+	color: #fff;
+}
+input[type=number] {  
+    -moz-appearance:textfield;  
+}  
+input[type=number]::-webkit-inner-spin-button,  
+input[type=number]::-webkit-outer-spin-button {  
+    -webkit-appearance: none;  
+    margin: 0;  
+} 
+.cna{
+	width: 250px;
+	height: 160px;
+	float: left;
+}
+.cna h1{
+	font-size: 35px;
+	color: #fff;
+	font-weight: 300;
+}
+.cna span{
+	margin-right: 10px;
+}
+hr{
+	margin:10px 0;
+	color: #fff;
+}
+.cna h1 p{
+	font-size: 40px;
+}
+.copy{
+	color: #fff;
+	font-size:16px ;
+	text-align: center;
+	margin:40px 0 24px 0;
+}
